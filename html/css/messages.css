@@ -1,0 +1,67 @@
+.vl {
+  border-left: 1px solid gray;
+  height: 500px;
+}
+.messages{
+  min-width:590px;
+  display: block;
+}
+.messages-users{
+  min-width: 200px;
+  width: 30%;
+
+  float:left;
+  background-color: red;
+}
+
+.messages-contents{
+  min-width: 400px;
+  width: 60%;
+  float:left;
+  background-color: blue;
+}
+
+@media only screen and (max-width: 600px){
+  .messages-users{
+    min-width: 65px;
+    width: 10%;
+    /* width: 30%; */
+
+    float:left;
+    background-color: green;
+  }
+
+  .messages-contents{
+    min-width: 200px;
+    max-width: 350px; 
+    width: 45%;
+    float:left;
+    background-color: lightblue;
+
+  }
+
+}
+@media only screen and (max-width: 400px){
+
+  .messages-contents{
+    min-width: 210px;
+    max-width: 400px;
+    width: 45%;
+    float:left;
+    background-color: yellow;
+
+  }
+
+}
+@media only screen and (max-width: 350px){
+
+  .messages-contents{
+    min-width: 210px;
+    max-width: 400px;
+    width: 35%;
+    float:left;
+    background-color: red;
+
+  }
+
+}

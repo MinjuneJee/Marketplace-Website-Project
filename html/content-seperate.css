@@ -1,0 +1,49 @@
+.picture{
+    width:600px;
+    height: 600px;
+    border: 2px black solid;
+    display: block;
+    margin: 30px 20px;
+    float: left;
+
+}
+
+.other-information{
+  width:300px;
+  height: 600px;
+  border: 2px black solid;
+  display: block;
+  margin: 30px 20px;
+  float: right;
+  position: relative;
+}
+
+.detail{
+  width: 280px;
+  height: 580px;
+  border: 2px blue solid;
+  display block;
+  margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.youtube{
+  width: 280px;
+  height: 200px;
+  border: 2px black solid;
+  display: block;
+  margin-bottom: 30px;
+
+}
+
+.information{
+  width: 280px;
+  height: 340px;
+  border: 2px black solid;
+  display: block;
+
+
+}

@@ -1,0 +1,10 @@
+#form input,select,textarea{
+  display: block;
+}
+/* .upload{
+  margin: 20px;
+} */
+
+.upload label{
+  font-size: 0.5em;
+}

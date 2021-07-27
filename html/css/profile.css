@@ -1,0 +1,41 @@
+.list .delete-item{
+  position: absolute;
+  z-index: 1;
+  float: right;
+
+}
+.profile-picture{
+  border-radius: 50%;
+  display: inline-block;
+}
+
+/* .profile-display-informaton{
+  position: relative;
+  margin: 0;
+}
+.profile-display-informaton-vertical-center{
+  margin: 0;
+  position:absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+} */
+
+/* .profile-name-block{
+  display:block;
+  width:100%;
+  height:85%;
+} */
+.profile-name{
+  font-size: 1em;
+  /* background-color: red; */
+  text-align: left;
+  /* margin-top: 10px; */
+}
+
+.profile-email{
+  font-size: 0.5em;
+  text-align: left;
+  margin: auto;
+  display: block;
+}
