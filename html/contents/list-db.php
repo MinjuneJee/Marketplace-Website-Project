@@ -11,7 +11,7 @@ if(!($_SESSION['oauth_uid'] == 110579307426066)){
 
 <?php include '../php/before-main.php';
 
-$conn = mysqli_connect('localhost','root','QM2565qm');
+$conn = mysqli_connect('localhost','root','');
 
 mysqli_select_db($conn, 'mjworld');
 
